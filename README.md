@@ -13,14 +13,11 @@ I had come across this data analysis as part of an assignment for a online recru
 
 Several Machine Learning models were applied and one neural network model using Keras was applied.
 ## Logistic Regression
-ROC AUC 
-![image](https://user-images.githubusercontent.com/66875776/113900669-b05fff00-9793-11eb-8cdf-d3248db9ccf1.png)
-Predicted NO  Predicted YES
-Actual NO      65.799204       7.622298
-Actual YES     12.044937      14.533561
+ROC AUC ![image](https://user-images.githubusercontent.com/66875776/113900669-b05fff00-9793-11eb-8cdf-d3248db9ccf1.png)![image](https://user-images.githubusercontent.com/66875776/113955831-14111900-97e2-11eb-8c4f-91719fdae5a4.png)
 
-Feature importance according to Logistic Regression.
-![image](https://user-images.githubusercontent.com/66875776/113955343-29d20e80-97e1-11eb-9683-c4b6fa50c9ec.png)
+
+
+Feature importance according to Logistic Regression.![image](https://user-images.githubusercontent.com/66875776/113955343-29d20e80-97e1-11eb-9683-c4b6fa50c9ec.png)
 ![image](https://user-images.githubusercontent.com/66875776/113955370-348ca380-97e1-11eb-9f5f-30bd1c09bfee.png)
 
 
@@ -29,7 +26,7 @@ Feature importance according to Logistic Regression.
 A 64-8-1 dense layered model with a decaying learning rate of batch size 32 is used.
 ![image](https://user-images.githubusercontent.com/66875776/113955096-b8925b80-97e0-11eb-9c11-bbb8c963be0c.png)
 Neural Network:
-               precision    recall  f1-score   support
+                  precision      recall     f1-score     support
 
          0.0       0.90      0.84      0.87      2362
          1.0       0.55      0.66      0.60       677
