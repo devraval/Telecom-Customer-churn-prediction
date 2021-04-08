@@ -13,34 +13,29 @@ I had come across this data analysis as part of an assignment for a online recru
 
 Several Machine Learning models were applied and one neural network model using Keras was applied.
 ## Logistic Regression
-ROC AUC ![image](https://user-images.githubusercontent.com/66875776/113900669-b05fff00-9793-11eb-8cdf-d3248db9ccf1.png)![image](https://user-images.githubusercontent.com/66875776/113955831-14111900-97e2-11eb-8c4f-91719fdae5a4.png)
+Classification table and ROC AUC plot ![image](https://user-images.githubusercontent.com/66875776/113900669-b05fff00-9793-11eb-8cdf-d3248db9ccf1.png)![image](https://user-images.githubusercontent.com/66875776/113955831-14111900-97e2-11eb-8c4f-91719fdae5a4.png)
 
 
 
-Feature importance according to Logistic Regression.![image](https://user-images.githubusercontent.com/66875776/113955343-29d20e80-97e1-11eb-9683-c4b6fa50c9ec.png)
+Feature importance according to Logistic Regression.
+
+![image](https://user-images.githubusercontent.com/66875776/113955343-29d20e80-97e1-11eb-9683-c4b6fa50c9ec.png)
+
 ![image](https://user-images.githubusercontent.com/66875776/113955370-348ca380-97e1-11eb-9f5f-30bd1c09bfee.png)
 
 
 
 ## Neural Network model 
 A 64-8-1 dense layered model with a decaying learning rate of batch size 32 is used.
+
 ![image](https://user-images.githubusercontent.com/66875776/113955096-b8925b80-97e0-11eb-9c11-bbb8c963be0c.png)
-Neural Network:
-                  precision      recall     f1-score     support
 
-         0.0       0.90      0.84      0.87      2362
-         1.0       0.55      0.66      0.60       677
-
-    accuracy                           0.80      3039
-   macro avg       0.72      0.75      0.73      3039
-weighted avg       0.82      0.80      0.81      3039
+![image](https://user-images.githubusercontent.com/66875776/113956004-6d794800-97e2-11eb-9b90-09d02c1e9d09.png)
 
 
-            Predicted NO  Predicted YES
-Actual NO           1995            367
-Actual YES           232            445
 
 Neural Network Feature importance using eli5 library
+
 ![image](https://user-images.githubusercontent.com/66875776/113955593-ab29a100-97e1-11eb-8a1d-e8e974b35eab.png)
 
 ## Conclusion
