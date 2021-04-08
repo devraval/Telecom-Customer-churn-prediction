@@ -13,7 +13,7 @@ I had come across this data analysis as part of an assignment for a online recru
 
 Several Machine Learning models were applied and one neural network model using Keras was applied.
 ## Logistic Regression
-Classification table and ROC AUC plot ![image](https://user-images.githubusercontent.com/66875776/113900669-b05fff00-9793-11eb-8cdf-d3248db9ccf1.png)![image](https://user-images.githubusercontent.com/66875776/113955831-14111900-97e2-11eb-8c4f-91719fdae5a4.png)
+Classification table and ROC AUC plot ![image](https://user-images.githubusercontent.com/66875776/113955831-14111900-97e2-11eb-8c4f-91719fdae5a4.png)
 
 
 
